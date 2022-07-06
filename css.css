@@ -1,0 +1,17 @@
+.test{
+    font-style:italic;
+    color: brown ;
+}
+.test1{
+    color:brown;
+}
+.test2{
+    letter-spacing: 4px;
+}    
+.lt{
+    text-decoration-line: line-through;
+}    
+
+.sp{
+background-color: yellow;
+}
