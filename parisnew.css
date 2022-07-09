@@ -1,0 +1,62 @@
+
+body{
+    width:2000px;
+    height:1000px;
+    background-color: white;
+    border:2px solid lightgray;
+    box-shadow: 2px  2px 2px gray;
+    margin-left: calc((100vw - 2000px) / 2);
+    margin-top: calc((100vh - 1000px) / 2); 
+    position: relative;
+
+}
+.text123{
+    background-color: white;
+    height:1000px;
+    width:2000px;
+    background-image: url(paris.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;  
+    filter: blur(4px) opacity(0.3);
+}
+.newitem{
+    width:500px;
+    height:300px;
+    border:2px solid red;
+    border-radius: 20px;
+    box-shadow:5px 4px 20px gray;
+    position:absolute;
+    top:350px;
+    left:750px;
+    filter:opacity(150)
+  
+}
+
+.newitem1{
+    font-size: 30px;
+    color:red;
+    position: relative;
+    top:50px;
+    text-align: center;
+
+}
+.box{
+    width:200px;
+    height:30px;
+    border:2px solid red;
+    border-radius: 20px;
+    box-shadow:5px 4px 20px gray;
+    position:absolute;
+    top:140px;
+    left:150px;
+}
+button{
+    background-color: red;
+    color:white;
+    height:30px;
+    width:50px;
+    border-radius: 20px;
+position:absolute;
+top:200px; 
+left:220px;   
+}
