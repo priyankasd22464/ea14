@@ -1,0 +1,119 @@
+body{
+    text-align: center;
+    background-color: rgb(243, 243, 181);
+}
+.one{
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    animation: one 2s linear infinite;
+    margin-left: 20px;
+    display: inline-block;
+}
+.two{
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(24, 195, 146);
+    animation: two 2s linear infinite;
+    margin-left: 20px;
+    display: inline-block;
+
+}
+.three{
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(13, 154, 114);
+    animation: three 2s linear infinite;
+    margin-left: 20px;
+    display: inline-block;
+
+}
+.four{
+text-align: left;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(233, 188, 231);
+    animation: four 2s linear infinite;
+    margin-left: 20px;
+    display: inline-block;
+}
+.five{
+    text-align: left;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(231, 167, 216);
+    animation: five 2s linear infinite;
+    margin-left: 20px;
+    display: inline-block;
+}
+.six {
+    text-align: left;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(227, 138, 225);
+        animation: six 2s linear infinite;
+        margin-left: 20px;
+        display: inline-block;
+}
+/*skewx*/
+@keyframes one{
+    0%{
+      transform: skewX(20deg)
+    }
+    100%{
+        transform: skewX(-20deg);
+    }
+}
+/*skewy*/
+@keyframes two{
+    0%{
+        transform: skewy(20deg);
+    }
+    100%{
+        transform: skewy(-20deg);
+    }
+}
+/*rotate*/
+@keyframes three{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(100deg);
+    }
+}
+/*rotatex*/
+@keyframes four{
+    0%{
+        transform: rotateX(0deg);
+    }
+    100%{
+        transform: rotateX(50deg);
+    }
+}
+/*rotaey*/
+@keyframes five{
+    0%{
+        transform: rotatey(0deg);
+    }
+    100%{
+        transform: rotatey(50deg);
+    }
+}
+/*rotae*/
+@keyframes six{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(110deg);
+    }
+}
+a{
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration:none;
+}
