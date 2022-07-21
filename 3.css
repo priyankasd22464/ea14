@@ -1,0 +1,244 @@
+
+body{
+    margin: 0; 
+ }
+ 
+ .container {
+     width: 80vw;
+     height: 80vh;
+     margin: auto;
+     margin-top: 95px;
+     display: grid;
+     grid-template-columns: auto auto;
+     justify-content: space-evenly;
+ }
+ 
+ .Task {
+     font-weight: 600;
+     font-size: 50px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     position: relative;
+ 
+ }
+ 
+ .List {
+     font-size: 50px;
+     color: grey;
+     margin-top: 35px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+ }
+ .second {
+     width: 10vw;
+     height: 6vh;
+     display: flex;
+     margin-top: 70px;
+     margin-left: 400px;
+ }
+ 
+ .symbol {
+     font-size: 25px;
+     color: grey;
+     padding-left: 5px;
+     font-family: sans-serif;
+     text-align: center;
+ }
+ .first {
+     width: 20vw;
+     height: 15vh;
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: -30px;
+     margin-top: 20px;
+ }
+ 
+ a {
+     text-decoration: none;
+ }
+ .material-icons {
+     font-size: 35px !important;
+     color: rgb(139, 112, 112);
+ }
+ 
+ .contain {
+     width: 80vw;
+     height: 50vh;
+     margin-left: 70px;
+     display: flex;
+     justify-content: space-evenly;
+     position: fixed;
+     margin-top: 100px;
+     position: absolute;
+ }
+ 
+ .cont1,.cont2,.cont3,.cont4 {
+     margin-top: 20px;
+     width: 15vw;
+     height: 40vh;
+     border: 1px solid rgb(156, 36, 56);
+     border-radius: 10px;
+     box-shadow: 6px 5px 1px rgb(177, 39, 39);
+ }
+ 
+ div>hr {
+     margin-left: 40px;
+ }
+ 
+ .p1 {
+     padding-top: 10px;
+     text-align: center;
+     font-family: sans-serif;
+     font-size: 25px;
+     color: black;
+ }
+ 
+ .p2 {
+     text-align: center;
+     color: rgb(206, 8, 8);
+     font-weight: bold;
+     font-size: 20px;
+     margin-left: 30px;
+     font-family: sans-serif;
+     text-decoration: line-through;
+ }
+ 
+ .para {
+     font-weight: bold;
+     font-size: 20px;
+     font-family: sans-serif;
+     margin-left: 15px;
+ 
+ }
+ 
+ .ab {
+      width: 400px;
+     height: 210px;
+     border: 1px solid red;
+     border-radius: 10px;
+     box-shadow: 6px 5px 3px rgb(153, 151, 151);
+     position: absolute;
+     left: calc((100vw - 400px) /2);
+     top: calc((100vh - 210px) /2);
+     background-color: white;
+ 
+ }
+ 
+ .ab1 {
+     width: 200px;
+     height: 20px;
+     text-align: center;
+     margin-top: 40px;
+     margin-left: 110px;
+     font-size: 22px;
+     font-family: sans-serif;
+     color: rgb(224, 59, 59);
+ }
+ 
+ .ab2 {
+     width: 270px;
+     height: 40px;
+     border: 1px solid rgb(102, 36, 36);
+     border-radius: 5px;
+     margin-top: 30px;
+     margin-left: 70px;
+     box-shadow: 3.3px 4px 4px rgb(116, 115, 115);
+ }
+ 
+ button {
+     margin-top: 20px;
+     margin-left: 150px;
+     color: white;
+     border: none;
+     border-radius: 100px;
+     padding: 7px 30px;
+     font-size: 25px;
+     background-color: rgb(205, 71, 71);
+ }
+ 
+ iframe {
+     width: 100vw;
+     height: 100vh;
+     filter: blur(6px);
+     position: fixed;
+ }
+ 
+ .ttp {
+     width: 50vw;
+     height: 10vh;
+     margin-top: 50px;
+     margin-left: 330px;
+     display: grid;
+     grid-template-columns: auto 300px auto;
+ 
+ }
+ 
+ .heading {
+     font-size: 50px;
+     font-weight: bold;
+     margin: auto;
+     padding: 0;
+     position: relative;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ 
+ .hr1 {
+     position: relative;
+     margin-top: 30px;
+ }
+ 
+ .ttcc {
+     margin-top: 50px;
+     margin-left: 490px;
+     width: 26vw;
+     height: 55vh;
+     border: 1px solid rgb(156, 36, 56);
+     border-radius: 10px;
+     box-shadow: 6px 5px 1px rgb(129, 127, 127);
+     position: absolute;
+ 
+ }
+ 
+ .para{
+     font-weight: bold;
+     font-size: 20px;
+     font-family: sans-serif;
+     margin-left: 90px;
+ 
+ }
+ .para1{
+     font-weight: bold;
+     font-size: 20px;
+     font-family: sans-serif;
+     margin-left: 90px;
+ 
+ }
+ 
+ .hr2 {
+     margin-left: 110px;
+ }
+ 
+ .goback {
+     width: 150px;
+     height: 50px;
+     margin-top: 40px;
+     margin-left: 600px;
+     display: flex;
+ 
+ }
+ 
+ .back>a {
+ 
+     font-size: 30px;
+     color: grey;
+ }
+ 
+ .back {
+     padding: 13px;
+ }
+ 
+ .addn{
+     display: flex;
+     justify-content: flex-end;
+     margin-top: 140px;
+ }
+ 
