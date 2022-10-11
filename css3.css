@@ -134,14 +134,15 @@ body {
   }
   
   .offer {
-    width: 80%;
-    text-align: center;
-    padding: 10px 20px;
-    font-style: italic;
-    font-size: 18px;
-    font-weight: 700;
-    color: rgb(194, 18, 18);
-    background-color: pink;
+    position: sticky;
+    top:10px;
+    margin: auto;
+    background-color: aqua;
+    width: 200px;
+    height: 70px;
+    border-radius: 25px;
+    border: 2px solid seagreen ;
+    padding: 10px;
   }
   
   .offer span {
