@@ -10,16 +10,101 @@ What are pseudo selectors in CSS
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./day5.css">
 </head>
 <body>
-    <img src="./nature.jpg" alt=""> 
-    <p class="test"> hey I am  media query</p>
-    <div class="parent">
-    <div class="class">1</div>
-    <div class="class">2</div>
-    <div class="class">3</div>
-    <div class="class">4</div>
-    <div class="class">5</div>
-    <div class="class">6</div> 
+    <h1>CSS INTERVIEW QUESTIONS (Day 5)</h1>
+
+    <!-- <b>Ques 24:-Show implementation of transition.</b><br>
+    Ans:-<br> -->
+    <pre>Increase width and height(transition) </pre>
+    <div class="tn">Transition</div><br>
+<pre>Increase width (transition-timing-function) </pre>
+<div  class="t div1">linear</div><br>
+<div  class="t div2">ease</div><br>
+<div  class="t div3">ease-in</div><br>
+<div  class="t div4">ease-out</div><br>
+<div  class="t div5">ease-in-out</div><br>
+
+<!-- <b>Ques 25:-Show implementation of transformation.</b><br>
+Ans:- -->
+    <div class="tf"></div>
+
+
+
+<!-- <b>Ques 26:-Show implementation of grid.</b><br>
+Ans:-<br> -->
+
+<div class="container">
+    <div class="item item-1">1</div>
+    <div class="item item-2">2</div>
+    <div class="item item-3">3</div>
+    <div class="item item-4">4</div>
+    <div class="item item-5">5</div>
+    <div class="item item-6">6</div>
+</div><br>
+  
+<!-- <b>Ques 27:-What are CSS combinators.</b><br>
+Ans:-<br> -->
+Combinators combine the selectors to provide them a useful relationship and the position of content in the document. <br>
+This comes in handy when you want to style certain elements all at once rather than styling elements individually. <br>
+CSS combinator selectors are as follows.
+<ol>
+    <li>Descendant Selector (space :- select the descendants of the first selector)</li>
+    <li>Child Selector (> :- targets direct children of the selector)</li>
+    <li>Adjacent Sibling Selector (+ :- targets the immediate siblings aafte the first selector )</li>
+    <li>General Sibling Selector (~ :-targets all the following )</li>
+</ol><br>
+
+
+<!-- <b>Ques 28:-What are pseudo selectors in CSS.</b><br>
+Ans:-<br> -->
+A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s).<br>
+ For example, :hover can be used to change a button's color when the user's pointer hovers over it.<br>
+ <pre>
+ a:hover {
+    background-color: voilet;
+  }
+ 
+ Syntax: 
+ 
+ selector:pseudo-class {
+     property : value;
+  }
+
+  and some  other example are:.
+
+  input:active{
+    border: none;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+button:disabled{
+    color: red;
+}
+
+
+button:enabled{
+    color:aqua;
+}
+
+div:empty{
+    background-color: aqua;
+    height: 100px;
+}
+
+a:link{
+    color: blue;
+}
+ </pre>
+
+
+
+
+
 </body>
 </html>
