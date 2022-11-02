@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Javascript 2</title>
+</head>
+<body>
+
+
+    <b>Q1. Calculator
+        Write a program to make a simple calculator using switch statement that takes operator and two numbers from user and print the result after operation.
+
+        Note: You have to complete Calculator. No need to take any input
+    </b> <br>
+   <pre>
+    const Calculator = (A, B, C) =>  {
+        
+           switch (A) {
+    
+            case "+":
+                return B + C;
+    
+            case "-":
+                return B - C;
+    
+            case "*":
+                return B * C;
+    
+            case "/":
+                return B / C;
+    
+            default:
+                return 'return result';
+        }
+    };
+   </pre>
+     
+
+ <b>Q2: Check whether the condition is fulfilled or not?
+    Write a program that takes a number and prints whether the number is divisible by 6 and 9 or not.
+    Note: You have to complete Check_divisibility. No need to take any input
+ </b> <br>
+ <pre>
+     const Check_divisibility = (N) => {
+
+         if (N % 6 == 0 && N % 9== 0) {
+             return "Divisible by both";
+         }
+         else   {
+             return "Not Divisible by both";
+         }
+         
+     };
+ </pre>   
+
+ <b>Q3:Eligible Voter.
+    You are given an integer A, denoting the age of a person, and your task is to determine whether he/she is eligible to vote or not.
+    Note: You have to complete isEligible function. No need to take any input
+ </b> <br>
+ <pre>
+     const isEligible = (a) => {
+         if(a>18){
+        return "Eligible for Voting";
+      }
+      else
+      {
+        return "Not Eligible for Voting";
+      } 
+  };
+
+  </pre>      
+     
+
+ <b>Q4:Find Relation.PrepBuddy wants you to get familiar with various Relational operators. He provides you with two  integer values X and Y and asks you to find the relation between them.The relationships between integers X and Y are as follows:
+    If X<Y, it means that X is smaller than Y
+    If X>Y, it means that X is greater than Y
+    If X=Y, it means that X is equal to Y
+     ote: You have to complete findRelationship function. No need to take any input.</b> 
+ <br>
+ <pre>
+    const findRelation = (x,y) => {
+        if (x < y){
+             return  (x + " is smaller than " + y)
+            }
+            
+            else if (x > y){
+              return (x + " is greater than " + y)
+            }
+            
+            else{
+              return (x + " is equal to " + y)
+            }
+     };
+    </pre>          
+     
+ <b>Q5:Find Grades.</b> <br>
+ <pre>
+     const findGrades = (a) => {
+         if(a>=41&&a<=50){
+          return "A";
+        }
+        else if(a>=31&&a<=40){
+          return "B";
+        }
+        else if(a>=21&&a<=30){
+          return "C";
+        }
+        else if(a>=11&&a<=20){
+          return "D";
+        }
+        else if(a<=11){
+          return "E";
+        } 
+    };
+</pre>   
+
+  <b>Q6: Get Value.</b><br>
+  <pre>
+     const getValue = (a) => {
+
+         if(a == 'p' || a=='P')
+       {
+         return "PrepBytes";
+       }
+       else if(a == 'z' ||a== 'Z')
+       {
+         return "Zenith";
+       }
+       else if(a== 'e' ||a== 'E')
+       {
+         return "Expert Coder";
+       }
+       else
+       {
+         return "Data Structure";
+       } 
+     
+   };
+   </pre>
+            
+             
+ <b>Q7: Find the maximum out of three numbers.</b><br>
+ <pre>
+     const Max_out_of_three = (A,B,C) => {
+
+         if (A>B && A>C){
+           return (A);
+         }
+         
+         
+         else if (B>A && B>C){
+           return (B);
+         }
+         
+         if (C>A && C>B){
+           return (C);
+         }
+         
+         else {
+           return (-1);
+         }
+     };
+
+   </pre>             
+         
+ <b>Q8:Second Smallest.</b><br>
+ <pre>
+     const findSndSmallest = (x,y,z) => {
+         if(x>y && x>z)
+       {
+         if(y>z)
+         {
+           return y;
+         }
+         else
+         {
+            return z;
+        }
+        
+       }
+       else if(y>x && y>z)
+       {
+         if(x>z)
+         {
+           return x;
+         }
+        else
+        {
+          return z;
+         }
+       }
+       else if(z>x && z>y)
+       {
+         if(x>y)
+         {
+           return x;
+        }
+        else
+        {
+          return y;
+        }
+      }
+  };
+  </pre>
+
+ <b>Q9:Check whether the triangle is Acute or Obtuse.</b><br>
+ <pre>
+ const Triangle_Check = (A,B,C) => {
+
+     let angle = A+B+C;
+          if(angle == 180 && A > 0 && B > 0 && C > 0) 
+          {
+            if (A < 90 && B < 90 && C < 90) 
+            {
+              return "acute";
+            }
+            else if (A == 90 || B == 90 || C == 90)
+            {
+              return "right"
+            }
+           else
+           {
+           return "obtuse";
+           }
+          }
+         
+     };
+</pre> 
+</body>
+</html>
