@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Q1.Find the Product.
+        Write a program that takes an array as input from the user and find out the product of the elements.
+        Note: You have to complete Find_Prod. No need to take any input.
+    </h3>
+    <pre>
+        const Find_Prod = (array, N) => 
+        {
+        let result=1;
+        for(let i=0;i<N;i++)
+        {
+        result=result*array[i];
+        }
+        return result; 
+
+        };
+    </pre>   
+    <h3>Q2.Write a program which takes an array as input from the user and find out the sum of the array elements.
+        Note: You have to complete Find_Sum. No need to take any input.
+    </h3> 
+    <pre>
+        const Find_Sum = (array, N) => 
+        {
+  
+        let sum=0;
+        for (let i=0;i<N;i++){
+        sum=sum+array[i];
+  
+        }
+        return sum;
+        };
+    </pre>
+    <h3>Q3.Count Occurrence
+        You are given an array A containing N integer elements and an integer K, and your task is to return the count of occurrences of K in array A.
+        Note: You have to complete findCount function. No need to take any input.
+    </h3>
+    <pre>
+        const findCount = (N, K, Arr) => 
+        {
+        let count=0;
+        for (let i=0;i< N ;i++){
+        if(K===Arr[i]){
+        count=count+1;
+        }
+    
+        }
+        return count;
+        };
+    </pre>
+    <h3>Q4.Even Odd
+        You are given an array A containing N integer elements, and your task is to return an array B(having a size equal to), where B[0]contains the sum of all even elements of array A and B[1]Mhas the sum of all odd elements of the array A.
+        Note: You have to complete findEvenOdd function. No need to take any input.
+    </h3>
+    <PRE>
+        const findEvenOdd = (N, Arr) => 
+        {
+        let B=[]
+        var a=Arr.filter((x)=>x%2===0) 
+        var b=a.reduce((acc,cum)=>acc=acc+cum,0)
+        B.push(b)
+    
+        var c=Arr.filter((x)=>x%2!==0)
+        var d=c.reduce((acc,cum)=> acc=acc+cum,0)
+        B.push(d)
+        return B;
+        };
+ 
+
+    </PRE>
+
+    <H3>Q5.Find whether the number is present or not
+        Write a program which takes an array as input from the user and a number.
+        Check whether the number is present or not.
+        
+        Note: You have to complete Find_Num. No need to take any input.
+    </H3>
+    <PRE>
+        
+        const Find_Num = (array,N,M) => 
+        {
+        let flag=0;
+        for(let i=0;i<=N ;i++)
+        {
+        if (array[i]===M)
+        flag++;
+        }
+  
+        if(flag>0){
+        return "YES";
+    
+        }
+        else{
+        return "NO";
+        }
+        };
+ 
+
+    </PRE>
+
+</body>
+</html>
