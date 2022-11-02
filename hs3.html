@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question Javascript 3</title>
+</head>
+<body>
+    <h1>JS Question - 3</h1>
+
+    <b>Q1. Find the number of digits
+        Take a number from the user and print the count of digits in that number.
+        Note: You have to complete Find_Digits. No need to take any input.
+    </b><br>
+    <pre>
+        const Find_Digits = (N) => 
+      {
+	   let count = 0;
+      while (N !== 0)
+      {
+      N = parseInt(N / 10);
+      count++;
+      }
+      return count;
+    };
+    </pre>
+
+    <b>Q2. Find the Fives.
+        Among all the digits from 0−9, PrepBuddy likes number 5. He has a number and wants you to find out the number of times 5 occurred in the given number.
+
+        Note: You have to complete Find_Five. No need to take any input.
+    </b><br>
+    <pre>
+        const Find_Five = (N) => 
+     {
+	 let count=0
+	 let digit 
+          while(N!=0){
+            digit=N%10;
+              N=parseInt(N/10)
+            if(digit==5){
+        count=count+1;
+        }
+      }
+        return count;
+    };
+    </pre>
+
+    <b>Q3.Find Sum
+        You are given an integer N, and your task is to find the sum of all the even integers starting from 
+        1 upto N(N inclusive).
+        Note: You have to complete findSum function. No need to take any input.
+    </b><br>
+    <pre>
+        const findSum = (n) => {
+            let sum=0
+                   let item=2
+                   while(item<=n){
+                   sum=sum+item;
+                   item+=2;
+              }
+                return sum;
+        };
+    </pre>
+
+    <b>Q4.Find the sum of the digits of a given number.
+        Write a program that takes a number from the user and get the sum of the digits present in the number.\
+        Note: You have to complete Number_Sum. No need to take any input.
+    </b><br>
+    <pre>
+        const Number_Sum = (N) => 
+   {
+	 let sum=0
+        while(N!==0){
+          let digit=N%10
+           N=parseInt(N/10)
+       sum=sum+digit;
+   }
+    return sum;
+  };   
+    </pre>
+    
+    <b>Q5.Print the Odds.
+        Write a program which takes  a number from user and print all odd numbers in between 2 and N, but print 2 first.
+        Note: You have to complete Print_Odd. No need to take any input.
+    </b><br>
+    <pre>
+        const Print_Odd = (N) => 
+     {
+	  console.log('2')
+                let num=3;
+             while(num<=N){
+              console.log(num)
+                num+=2
+             }
+     };
+    </pre>
+
+    <b>Q6.Print the Pattern.</b><br>
+    <pre>
+        const Print_pattern = (N) => 
+     {
+     let i,j;
+        for(i=0;i< N;i++){
+         let result=''
+          for(j=0;j<=i;j++){
+           result=result+'*'
+            }
+            console.log(result)
+       }
+     };
+    </pre>
+
+    <b>Q7.Check whether a Number is a prime or not.</b><br>
+    <pre>
+        const Prime_Check = (N) => 
+      {
+	    if (N <= 1) return 'NO';
+            if (N == 2) return 'YES';
+          
+            for (let i = 2; i <= N / 2; i++) {
+            if (N % i === 0) {
+                return 'NO';
+              }
+            }
+            return 'YES';
+	
+      };
+    </pre>
+
+    <b>Q8.Print Numbers</b><br>
+    <pre>
+        const printNumbers = (n) => {
+            var ing='';
+                   for(let i=1;i<=n;i++){
+                     ing=ing+i+' ';
+                   }
+                   console.log(ing);
+       };
+    </pre>
+    
+    <b>Q9.Print the Table</b><br>
+    <pre>
+        const Print_Table = (N) => 
+     {
+	     let tab='';
+         for(let i=1;i<=10;i++){
+           tab=N+' '+'*'+' '+i+' '+ '=' +' '+ N*i;
+           console.log(tab);
+       }
+     };
+    </pre>
+</body>
+</html>
