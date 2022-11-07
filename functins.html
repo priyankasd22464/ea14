@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<h3>
+Create one function with zero parameter having a console statement;
+</h3>
+<pre>
+    function dummy(){
+        console.log("Hello, World!");
+        
+        }
+        dummy();
+</pre>
+
+<h3>
+    Create one function which takes two values as a parameter and print the sum of them as "Sum of 3, 4 is 7"
+</h3>
+<pre>
+    function add(a,b){
+        var sum=a+b;
+        console.log ("sum of a+b is "+ sum);
+        }
+        add(3,4);
+</pre>
+<h3>
+    Create one arrow function
+</h3>
+<pre>
+    const Check = (A, B) => 
+    {
+    return (A % 10==0)||(B%10==0)?true:false;
+    
+     return (A % 10==0)&&(B%10==0)?true:false;
+    
+    }
+    Check(A,B)
+</pre>
+
+<h3>
+    "Print output: 
+var x = 21;
+var girl = function () {
+    console.log(x);
+    var x = 20;
+};
+girl ();"
+</h3>
+
+<pre>
+    Output:
+
+    undefined
+</pre>
+<h3>
+    "Print output: 
+var x = 21;
+girl ();
+console.log(x)
+function girl() {
+    console.log(x);
+    var x = 20;
+};
+"
+</h3>
+<pre>
+    Output:
+
+    undefined
+    21
+
+</pre>
+
+<h3>
+    Write a function that accepts parameter n and returns factorial of n
+</h3>
+<pre>
+    function factorial(n){
+        let answer = 1;
+        if (n == 0 || n == 1){
+        return answer;
+        }else{
+        for(var i = n; i >= 1; i--){
+        answer = answer * i;
+        }
+</pre>
