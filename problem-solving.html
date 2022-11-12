@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+    Find the Smaller Angle
+    var Minimal_Angle = (h, m) => 
+{
+     const minute=m*6;
+     const hour=(h*30)+(m*0.5);
+     const angle=Math.abs(hour-minute);
+     return Math.min(angle,360-angle);
+};
+Check whether the year is Leap year or not.
+ 
+var Check_Leap = (year) => 
+{
+ if((year%4===0)&&(year%100!==0)||(year%400===0)){
+   return "Leap Year";
+ }
+ 
+   return "Non Leap Year";
+ 
+ 
+
+};
+Perfect Number Check.
+var Perfect_Check = (N) => 
+{
+      var temp=0;
+      for(let i=0;i<N%2;i++){
+ if(N%i===0){
+   temp+=i;
+ }
+      }
+      if(temp===N && temp!==0){
+        return "YES";
+      }else{
+        return "NO";
+      }
+};
+Reverse a Number.
+var Reverse_Number = (N) => 
+{
+  N=N+"";
+   const result=N.split("").reverse().join("");
+return +result;
+};
+Substring Check.
+var Substring_Check = (S1, S2) => 
+{
+   S1=S1+"";
+   S2=S2+"";
+  
+  
+ if(S1.includes(S2)){
+   return "YES";
+ }else{
+    return "NO";
+ }
+  
+};
+ 
+    </pre>
+    
+</body>
+</html>
